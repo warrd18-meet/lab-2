@@ -1,0 +1,42 @@
+h1 {
+	font-size:50pt;
+	 color:red; 
+	 text-transform: uppercase;} 
+
+p { 
+	text-align:center;
+	 background-color: lightgreen; }
+
+img { 
+		border-radius: 15px; 
+		height:30%; 
+		width:30%;}
+
+body {
+		font-family: Arial; 
+		background-image: url("https://image.freepik.com/free-vector/brick-texture-background_1035-2260.jpg");}
+
+.chocolate {
+		color: red;}
+
+#food {
+		text-decoration: underline;}
+
+#love {  
+		color: red; 
+		background-color: white}
+
+a:hover {
+	background-color : lightgreen;
+}
+@keyframes example {
+    from {background-color: lightgreen}
+    to {background-color: lightblue;}
+}
+
+div {
+    
+    background-color: red;
+    animation-name: example;
+    animation-duration: 3s ;
+    animation-iteration-count: infinite; }
